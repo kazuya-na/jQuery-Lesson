@@ -1,3 +1,5 @@
 $(function(){
-  $('body').html('<h1>Hello jQuery!!</h1>');
-});
+  $('button').on('click',function(){
+    $('ul').children().css('color','red');
+  });
+})
